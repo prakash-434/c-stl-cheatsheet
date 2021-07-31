@@ -38,7 +38,7 @@ int main()
 
 
   /*front() :- This returns the first element of array. */
-  cout << "First element of array is : ";
+  cout << "\n\nFirst element of array is : ";
   cout << ar.front() << endl;
 
 
@@ -58,7 +58,7 @@ int main()
 
   /*swap() :- The swap() swaps all elements of one array with other.*/
   // Printing 1st and 2nd array before swapping
-  cout << "The second array elements before swapping are : ";
+  cout << "\n\nThe second array elements before swapping are : ";
   for (int i=0; i<6; i++)
   cout << ar2[i] << " ";
   cout << endl;
@@ -78,7 +78,7 @@ int main()
   cout << "The third array elements after swapping are : ";
   for (int i=0; i<6; i++)
   cout << ar3[i] << " ";
-  cout << endl;
+  cout << endl<<endl<<endl;
 
 
   /*empty() :- This function returns true when the array size is zero else returns false. */
